@@ -15,6 +15,13 @@ import usersView from '../js/view/users.View.js';
 export var routes=[
   {
     name: "home",
+    path:"/",
+    content: homeView.defDisplay(),
+    view:homeView,
+    proc: homeMod
+  },
+  {
+    name: "home",
     path:"/home",
     content: homeView.defDisplay(),
     view:homeView,

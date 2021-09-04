@@ -15,6 +15,9 @@ export default {
         .usersTBL td:nth-child(3){
           text-align:center;
         }
+        .usersTBL a{
+          color:#8b8b8b;
+        }
         #usersMenu a{
           color:#8b8b8b;
         }

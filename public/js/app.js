@@ -10,7 +10,7 @@
     //Relace duplicate slashes:
     route=route.replace(/\/\/+/g, '/');
 
-    //Set route to / for pathing, if not the root folder:
+    //Set route to / for pathing, when equal to the root folder:
     if(route==rootDir ){
       route="/";
     }
@@ -27,8 +27,11 @@
         }
     });
     rootDiv.innerHTML = result[0].content;
+    //initiate any secondary page process that might exist in the page model:
+    //Pass the View to the Modal for usage:
+    result[0].proc.init(result[0].view);
 
-
+    //Todo: separate to create menu system as model/view and routing as util.
     //spa_menu listeners:
     const mainMenuArray=document.querySelectorAll('.spa_menu a');
 
