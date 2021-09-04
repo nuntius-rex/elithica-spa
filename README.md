@@ -5,7 +5,7 @@ A Pure JavaScript Modular SPA (With No Front End Framework) - Ultralight, ES6 Mo
 
 The evolution of this project can be explored in the following repos:
 
-In the first SPA Router repo, I wanted to build a SPA application with plain JavaScript. Borrowing from a few sources, I was able to accumulate the basics and run on Node with Express.
+In the first SPA Router repo, I wanted to build a SPA application with plain JavaScript. Borrowing from a few source examples, I was able to accumulate the basics and run on Node with Express.
 
 [Simple SPA Router](https://github.com/nuntius-rex/simple-spa-router.git)
 
@@ -27,7 +27,7 @@ All the data enhancements are done through the following file and the given mode
 util/data.Util.js
 ```
 
-Since Fetch uses a promise based encapsulation, the way in is to pass in a callback function from the model. In the following example, found in model/users.Mod.js, I create a callback that will display the result data.
+Since Fetch uses a promise based encapsulation, the best way to control the output is through input (that should be a new catch phrase! :-)> ). So you create a callback and pass it in as a function from the model. In the following example, found in model/users.Mod.js, I create a callback that will display the result data.
 
 ```
   postUsers:function(formProps){
@@ -73,7 +73,7 @@ The data.Util.js process postData will handle it as follows:
 
 All of the various REST processes for FETCH, POST, PUSH, PATCH and DELETE work in a similar fashion.
 
-## How to Run
+## How to Run the App 
 
 ```
 git clone https://github.com/nuntius-rex/simple-spa-router-es6
