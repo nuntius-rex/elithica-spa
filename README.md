@@ -1,4 +1,8 @@
 # Elithica SPA
+
+<p style="color:red">NOTE: THIS REPO IS RETAINED FOR HISTORCAL REASONS AS PRE-WORK HISTORY OF THE OFFICIAL ELITHICA.<br>
+TO DOWNLOAD CURRENT VERSIONS GET OUR <a href="https://www.npmjs.com/package/@elithica/cli" target="_blank">ELITHICA CLI</a>.</p>
+
 A Pure JavaScript Modular SPA (With No Front End Framework) - Ultralight, ES6 Modules, MVC Pattern, Fetch-REST
 
 > Philosophy: "Load only what you need, not everything you may never need!"
